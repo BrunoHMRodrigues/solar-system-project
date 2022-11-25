@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './MissionCard.css';
 
 class MissionCard extends React.Component {
   render() {
@@ -7,7 +8,7 @@ class MissionCard extends React.Component {
     // const { name, year, country, destination } = missionData;
     const { name, year, country, destination } = this.props;
     return (
-      <div data-testid="mission-card">
+      <div data-testid="mission-card" className="container-mission-card">
         <p data-testid="mission-name">{ name }</p>
         <p data-testid="mission-year">{ year }</p>
         <p data-testid="mission-country">{ country }</p>

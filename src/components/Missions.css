@@ -1,0 +1,19 @@
+.container-missions {
+    width: 85vw;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 5px 5px 15px rgb(179, 176, 176);
+}
+
+.container-missions h2 {
+    width: 100%;
+    text-align: center;
+}
